@@ -4,19 +4,11 @@ let notePages = document.querySelectorAll(".created-notes");
 let notesContainer = document.querySelector(".notes-container")
 let toggleBtn = document.querySelector(".toggle-btn");
 
-// toggleBtn.addEventListener('click', () => {
-//     if (notesContainer.style.background = "linear-gradient(90deg, #fcff9e 0%, #c67700 100%)") {
-//         notesContainer.classList.toggle("notes-container-toggle");
-//     }
-//     else {
-//         return;
-//     }
-// })
 
 function getStorageitem() {
     createdNotescontainer.innerHTML = localStorage.getItem('notes')
 }
-// getStorageitem();
+getStorageitem();
 function updateStorage() {
     localStorage.setItem('notes', createdNotescontainer.innerHTML)
 }
