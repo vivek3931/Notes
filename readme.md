@@ -1,8 +1,8 @@
-Notes App
+## Notes App
 
 A simple web-based Notes application built using HTML, CSS, and JavaScript.
 
-Features
+## Features
 
 Create new notes
 
@@ -12,11 +12,11 @@ Delete notes
 
 Notes are saved locally in the browser using LocalStorage
 
-Demo
+## View Demo
 
 Live Demo (write-your-notes.netlify.app)
 
-File Structure
+## File Structure
 
 notes-app/
 ├── index.html     # Main HTML file
@@ -24,7 +24,7 @@ notes-app/
 ├── script.js      # JavaScript logic
 └── README.md      # Project documentation
 
-How It Works
+## How It Works
 
 HTML: Provides the structure of the app, including input fields, buttons, and a container to display notes.
 
@@ -36,10 +36,14 @@ Handles user interactions like adding, editing, and deleting notes.
 
 Uses LocalStorage to persist notes even after refreshing the browser.
 
-Usage
+## Usage
 
 Open the app in a web browser.
 
 Add a new note using the input field and "Add Note" button.
 
 Edit or delete notes directly in the app.
+
+## Project Img
+
+[View](./img/Screenshot%202025-02-09%20094905.png);
