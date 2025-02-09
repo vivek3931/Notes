@@ -46,4 +46,4 @@ Edit or delete notes directly in the app.
 
 ## Project Img
 
-[View](./img/Screenshot%202025-02-09%20094905.png);
+[View](./img/Screenshot%202025-02-09%20094905.png)
